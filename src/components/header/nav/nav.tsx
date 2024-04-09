@@ -16,6 +16,7 @@ const Nav = () => {
     { id: 'home', label: 'Home' },
     { id: 'about', label: 'About' },
     { id: 'portfolio', label: 'Portfolio' },
+    { id: 'CV', label: 'CV' },
     { id: 'contacts', label: 'Contacts' },
   ];
 

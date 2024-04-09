@@ -16,10 +16,10 @@ const Footer = () => {
         <p className={styles.copyright}>
           <span>
             © {new Date().getFullYear().toString()}&nbsp;
-            Made with <span className={styles.heart}>&#10084;</span> by&nbsp;
+            Developed <span></span> by&nbsp;
           </span>
           <button className={styles.name} onClick={handleScrollToTop}>
-            Yaroslav&nbsp;Lebedenko
+            Emmanuel&nbsp;Abwao
             <Icon
               className={styles.icon}
               name="rocket"

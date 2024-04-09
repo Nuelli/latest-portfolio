@@ -13,31 +13,31 @@ const Portfolio = () => {
       <ul className={styles.list}>
         <li>
           <Card
-            img="/img/works/youtube-clone.jpg"
-            title="YouTube"
-            description="Youtube clone using rapid api - demo."
-            href="https://youtube-clone-nailheart.vercel.app"
-            githubUrl="https://github.com/Nailheart/youtube-clone"
+            img="/image link"
+            title="title"
+            description="description of the app"
+            href="link to the app"
+            githubUrl=""
             topics={['react', 'typescript', 'rapid-api', 'sass']}
           />
         </li>
         <li>
           <Card
-            img="/img/works/taskify.jpg"
-            title="Taskify"
-            description="Task manager to keep track of your goals."
-            href="https://taskify-nailheart.vercel.app/"
-            githubUrl="https://github.com/Nailheart/taskify"
+            img="/"
+            title=""
+            description=""
+            href=""
+            githubUrl=""
             topics={['nextjs', 'prisma', 'typescript', 'stripe', 'tailwindcss']}
           />
         </li>
         <li>
           <Card
-            img="/img/works/chatiko.jpg"
-            title="Chatiko"
-            description="Realtime chat app."
-            href="https://chatiko.vercel.app"
-            githubUrl="https://github.com/Nailheart/chatiko"
+            img="/"
+            title=""
+            description=""
+            href=""
+            githubUrl=""
             topics={[
               'nextjs',
               'typescript',
