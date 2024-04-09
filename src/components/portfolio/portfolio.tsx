@@ -6,8 +6,8 @@ import styles from './styles.module.scss';
 const Portfolio = () => {
   return (
     <section id="portfolio" className={styles.portfolio}>
-      <h2 className={styles.title}>
-        <span>My</span> Works
+      <h2 className={styles.title}  >
+        <span>My</span> Projects
       </h2>
 
       <ul className={styles.list}>
@@ -31,23 +31,7 @@ const Portfolio = () => {
             topics={['nextjs', 'prisma', 'typescript', 'stripe', 'tailwindcss']}
           />
         </li>
-        <li>
-          <Card
-            img="/"
-            title=""
-            description=""
-            href=""
-            githubUrl=""
-            topics={[
-              'nextjs',
-              'typescript',
-              'pusher',
-              'upstash',
-              'redis',
-              'tailwindcss',
-            ]}
-          />
-        </li>
+        
       </ul>
       <Link className={styles.btn} href="/works">
         See more
