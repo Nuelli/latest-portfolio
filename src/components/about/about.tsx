@@ -23,7 +23,7 @@ const About = () => {
       <div className={styles.wrapper}>
         <Image
           className={styles.img}
-          src="/img/about.png"
+          src="/img/kakashi.png"
           width={550}
           height={320}
           alt="Picture with characters from anime and video games"
