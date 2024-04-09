@@ -71,10 +71,6 @@ const Works = () => {
               topics={['simple-bar', 'sass', 'gulp', 'google-maps']}
             />
           </li>
-          
-        
-         //
-
           <li>
             <Card
               img=""
