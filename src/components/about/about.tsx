@@ -31,7 +31,7 @@ const About = () => {
 
         <div className={styles.content}>
           <h2 className={styles.title}>About <span>Me</span></h2>
-          <p className={styles.text}>Greetings! I&apos;m <span>Emmanuel Abwao</span>, I thrive at the intersection of creativity and functionality, crafting digital solutions that seamlessly merge front-end aesthetics with robust back-end functionality. I excel in architecting end-to-end solutions that prioritize user experience, performance and security. Whether it's designing intuitive user interfaces, optimizing database queries or troubleshooting complex server issues, I approach each challenge with creativity, precision, and a relentless pursuit of excellence. I am committed to staying at the forefront of technological advancements, constantly expanding my skill set to adapt to evolving industry trends and best practices. </p>
+          <p className={styles.text}>Greetings! I am <span>Emmanuel Abwao</span>, I thrive at the intersection of creativity and functionality, crafting digital solutions that seamlessly merge front-end aesthetics with robust back-end functionality. I excel in architecting end-to-end solutions that prioritize user experience, performance and security. Whether it is designing intuitive user interfaces, optimizing database queries or troubleshooting complex server issues, I approach each challenge with creativity, precision, and a relentless pursuit of excellence. I am committed to staying at the forefront of technological advancements, constantly expanding my skill set to adapt to evolving industry trends and best practices. </p>
         </div>
       </div>
 
