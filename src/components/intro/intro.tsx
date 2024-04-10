@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import styles from './styles.module.scss';
+import ParticlesContainer from '@/app/works/ParticlesContainer'
 
 const Intro = () => {
   return (

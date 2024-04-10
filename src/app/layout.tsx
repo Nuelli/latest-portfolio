@@ -1,18 +1,23 @@
 import { ReactNode } from 'react';
 import { Metadata } from 'next';
-import { Nunito } from 'next/font/google';
+import { Jost } from 'next/font/google';
+
 
 import { Toast } from '@/components/toast/toast';
 import { Header } from '@/components/header/header';
 import { Footer } from '@/components/footer/footer';
 import '@/scss/style.scss';
+import ParticlesContainer from '@/app/works/ParticlesContainer'
+import Particles from 'react-particles';
 
-const nunito = Nunito({ subsets: ['latin'] });
+
+const jost = Jost({ subsets: ['latin'] });
+
 
 export const metadata: Metadata = {
   title: 'Portfolio',
   description: 'Welcome to Emmanuel Abwao portfolio',
-  keywords: 'web development, front-end development, html, css, scss, javascript, react, next, gulp',
+  keywords: 'web development, front-end development, html, css, scss, javascript, react, next, gulp', 
   icons: {
     icon: [
       {
@@ -44,11 +49,13 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body id="home" className={nunito.className}>
+      <body id="home" className={jost.className}>
+        
         <Header />
         <main>{children}</main>
         <Footer />
         <Toast />
+        
       </body>
     </html>
   );
