@@ -1,16 +1,17 @@
-import { PC } from '@/components/pc/pc';
+import Image from 'next/image';
 import styles from './styles.module.scss';
 
 const Intro = () => {
   return (
     <section id="home" className={styles.intro}>
-      <PC className={styles.pc} />
+     
+     
 
       <div className={styles.description}>
         <h1 className={styles.title}>
           Hello there! 👋
           <br />
-          I&apos;m <span>Emmanel Abwao</span>
+          I&apos;m <span>Emmanuel Abwao</span>
         </h1>
 
         <p className={styles.text}>
@@ -18,6 +19,17 @@ const Intro = () => {
           portfolio website that I intend to update regularly. Thank you for visiting.
         </p>
       </div>
+
+      <div className={styles.wrapper}>
+        <Image
+          className={styles.img}
+          src="/img/mypic.png"
+          width={550}
+          height={320}
+          alt="my image"
+        />
+        </div>
+
     </section>
   );
 };
