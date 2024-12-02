@@ -22,7 +22,6 @@ const Works = () => {
                 'stripe',
                 'tailwindcss',
               ]}
-              <script data-jsd-embedded data-key="d7547948-ff4a-43bf-ab38-3ac7f2f9723e" data-base-url="https://jsd-widget.atlassian.com" src="https://jsd-widget.atlassian.com/assets/embed.js"></script>
             />
           </li>
           <li>
